@@ -18,6 +18,8 @@ class Konfident
 
     puts "#{pre_hook}"
 
+    `chmod +x .git/hooks/commit-msg`
+
     # puts "Copying file from #{temp_file} to #{directory}"
 
     # FileUtils.cp(temp_file, hooks_path)
