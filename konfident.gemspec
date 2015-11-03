@@ -7,8 +7,11 @@ Gem::Specification.new do |s|
   s.authors     = ["Kasia Kasprzak"]
   s.email       = 'kasia.kasprzak18@gmail.com'
   s.files       = Dir['Rakefile', '{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*']
+  s.test_files  = s.files.grep(%r{^(test)/})
   s.executables << 'konfident'
   s.homepage    =
     'http://rubygems.org/gems/konfident'
   s.license       = 'MIT'
+  s.add_development_dependency "bundler", "~> 1.10"
+  s.add_development_dependency "rake", "~> 10.0"
 end
