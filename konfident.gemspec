@@ -13,5 +13,6 @@ Gem::Specification.new do |s|
     'http://rubygems.org/gems/konfident'
   s.license       = 'MIT'
   s.add_development_dependency "bundler", "~> 1.10"
+  s.add_development_dependency "minitest"
   s.add_development_dependency "rake", "~> 10.0"
 end
