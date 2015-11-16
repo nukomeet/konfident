@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name        = 'konfident'
-  s.version     = '0.0.0'
+  s.version     = '0.1.0'
   s.date        = '2015-10-19'
   s.summary     = "Konfident"
   s.description = "A simple gem to check git conventions"
   s.authors     = ["Kasia Kasprzak"]
-  s.email       = 'kasia.kasprzak18@gmail.com'
+  s.email       = 'kasia.k@nukomeet.com'
   s.files       = Dir['Rakefile', '{bin,lib,man,test,spec}/**/*', 'README*', 'LICENSE*']
   s.test_files  = s.files.grep(%r{^(test)/})
   s.executables << 'konfident'
